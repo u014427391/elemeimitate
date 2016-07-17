@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:state_pressed="true"><shape>-->
+
+            <!--&lt;!&ndash; 点击时按钮的背景颜色 &ndash;&gt;-->
+            <!--<gradient android:angle="270" android:endColor="@color/btn_color_true" android:startColor="@color/btn_color_true" />-->
+            <!--&lt;!&ndash; 点击时按钮的边框颜色和宽度 &ndash;&gt;-->
+            <!--<stroke android:width="1dp" android:color="@color/btn_color_false" />-->
+            <!--&lt;!&ndash; 圆角>1的时候有圆角 &ndash;&gt;-->
+            <!--<corners android:radius="5dp" />-->
+
+            <!--<padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />-->
+        <!--</shape></item>-->
+    <item><shape>
+
+            <!-- 没有点击时按钮的背景颜色 -->
+            <gradient android:angle="270" android:endColor="#C62018" android:startColor="#C62018" />
+            <!-- 没有点击时按钮的边框颜色和宽度 -->
+            <stroke android:width="0dp" android:color="#ffffff" />
+            <!-- 圆角>1的时候有圆角 -->
+            <corners android:radius="360dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+
+</selector>

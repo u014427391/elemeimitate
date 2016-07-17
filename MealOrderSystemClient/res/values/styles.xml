@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="normal_textstyle">
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">@dimen/f21</item>
+    </style>
+    
+    <style name="title_right_button">
+        <item name="android:paddingLeft">@dimen/title_rightButton_padding</item>
+        <item name="android:paddingRight">@dimen/title_rightButton_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@drawable/back_button_default_style</item>
+    </style>    
+	    
+   <style name="screen_margin_style">
+        <item name="android:layout_marginRight">@dimen/pad3</item>
+        <item name="android:layout_marginTop">@dimen/pad3</item>
+        <item name="android:layout_marginLeft">@dimen/pad3</item>
+    </style>
+
+ 
+    <style name="green_buttom_style">
+        <item name="android:textColor">@color/white2</item>
+        <item name="android:textSize">@dimen/f21</item>
+    </style>
+    
+    
+</resources>

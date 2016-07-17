@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+     >
+
+    <include 
+        android:id="@+id/ele_title"
+        layout="@layout/common_above_title" />
+
+ 	 <com.mos.view.RefreshableListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1dip"
+        android:drawSelectorOnTop="false"
+        android:fadingEdgeLength="0.0sp"
+        android:layout_below="@id/ele_title"
+        android:scrollbars="none" >
+    </com.mos.view.RefreshableListView>
+
+</LinearLayout>

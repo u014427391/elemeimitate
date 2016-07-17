@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!--标题的颜色-->
+    <color name="title_color_ff0000">#fa5858</color>
+    <!--按钮的颜色及文字颜色-->
+    <color name="btn_color_true">#ffffff</color>
+    <color name="btn_color_false">#fa5858</color>
+    
+    <color name="color_menu_back">#F3F2F2</color>
+    <color name="color_menu_lines">#CDCACA</color>
+   
+    <color name="green">#ff5ab06c</color>
+    <color name="green_weixin">#ff42bd41</color>
+    <color name="green_weixin_pressed">#ff3cae3b</color>
+    <color name="green_weixin_co_order">#ff4db232</color>
+    <color name="blue_dark">#ff0c72a9</color>
+    <color name="blue_light">#ff3893cf</color>
+    <!-- 标题栏颜色 -->
+    <color name="top_bar_normal_bg">#4ebcd3</color>
+    <!-- 标题栏字体颜色 -->
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <!-- 底部菜单导航的文字颜色 -->
+    <color name="tab_text_bg">#bababa</color>
+     <!-- 字体颜色 -->
+    <color name="textcolor">#666666</color>
+	<color name="backColor">#2000</color>
+    <color name="white2">#fafafa</color>
+    <color name="white">#fff</color>
+    <!-- 浅灰色 -->
+    <color name="bg_Gray_light">#EEEEEE</color>
+    <!-- 特别提示、重要数据等文字颜色：#004199     蓝色       “cor1 -->
+    <!--  
+    <color name="cor1">#004299</color>
+    -->
+    <color name="cor1">#0099ff</color>
+    <color name="cor2">#7cbe28</color>   
+    <!--  -->
+      <color name="color_d2">#ffd2d2d2</color>
+	  <color name="gray_bg">#ffeeeeec</color>
+     <!-- 背景 -->
+    <color name="cor4">#fafafa</color>
+    <color name="cor5">#cccccc</color>
+    <color name="cor6">#999999</color>
+    <color name="cor7">#666666</color>
+    <color name="cor8">#333333</color>
+    <color name="blue_start">#00338B</color>
+    <color name="blue_center">#003F97</color>
+    <color name="blue_end">#0B4CA4</color>
+    <color name="yellow_text">#f08300</color>
+     <!-- 所有线框的标准色 -->
+    <color name="linecolor">#cccccc</color>
+    <color name="colorhint">#cccccc</color>
+    <color name="shape_start">#02367D</color>
+    <color name="shape_end">#0F438A</color>
+    <color name="light_gray">#EFEFEF</color>
+    <color name="red1">#EB321B</color>
+    
+    <!-- 灰色 -->
+    <color name="bg_Gray">#CCCCCC</color>
+    <!-- 红色 -->
+   <color name="red">#FF0000</color>
+   <!-- 黑色 -->
+   <color name="black">#000000</color>
+   <!-- 皇家蓝色 -->
+   <color name="royalblue">#4169E1</color>
+   <!-- 亮蓝色 -->
+   <color name="lightblue">#ADD8E6</color>
+   <!-- 紫罗兰蓝色 -->
+   <color name="blueviolet">#8A2BE2</color>
+   <!-- 亮天蓝色 -->
+   <color name="lightskyblue">#87CEFA</color>
+   <!-- 天蓝色 -->    
+   <color name="skyblue">#87CEEB</color>
+   <!-- 蓝色 -->
+   <color name="blue">#004299</color>
+    
+    
+</resources>

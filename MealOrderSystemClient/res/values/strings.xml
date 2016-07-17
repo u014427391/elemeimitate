@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">网上订餐系统</string>
+    
+    <!-- 登录注册 -->
+    <string name="version">1.1.0</string>
+    <string name="login_pw">登录密码</string>
+    <string name="autoLogin">自动登录</string>
+    <string name="savedAccount">记住账号</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="number">会员账号</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+	<!-- 底部菜单文字 -->
+    <string name="fragment_menu_homepage">外卖</string>
+    <string name="fragment_menu_order">订单</string>
+    <string name="fragment_menu_found">发现</string>
+    <string name="fragment_menu_my">我的</string>
+        
+</resources>

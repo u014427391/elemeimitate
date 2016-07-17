@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@drawable/back_title"
+        android:gravity="center_vertical" >
+ 
+        <TextView
+            android:id="@+id/message_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/fragment_menu_found"
+            android:textColor="@color/bottom_text_color_normal"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:background="#ff4dc060"
+        android:gravity="center"
+        android:text="接受预订中,12:00开始送餐"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_pic_top" />
+
+   <ImageView
+       android:id="@+id/iv_home_head"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/home_pic_sec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_field"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dip"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="快用微信拼单"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dip"
+                android:gravity="center"
+                android:text="和你的小伙伴一起来订餐吧"
+                android:textColor="#ff616267"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/cart_list_footer_weixin_order_entrance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/text_field"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10.0dip" >
+
+                <ImageView
+                    android:id="@+id/weixin_login"
+                    android:layout_width="45.0dip"
+                    android:layout_height="45.0dip"
+                    android:background="@drawable/selector_weixin_green_button"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/weixin_iner_icon" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/cart_list_footer_weixin_order_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="微信拼单"
+                        android:textColor="#ff666666"
+                        android:textSize="14.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/text_field"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+
+    </LinearLayout>
+
+        
+
+</LinearLayout>

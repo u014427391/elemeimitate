@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mime_layout_02"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/logo_iv"
+            android:layout_width="70.0dip"
+            android:layout_height="70.0dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/ic_normal_pic"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/row_img_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:scaleType="matrix"
+            android:src="@drawable/mm_submenu" />
+
+        <TextView
+            android:id="@+id/business_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_iv"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/logo_iv"
+            android:text="清香奶茶店"
+            android:textColor="#202020"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/sendOutPrice_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/business_name_tv"
+            android:layout_toLeftOf="@+id/row_img_02"
+            android:text="￥10起送"
+            android:textColor="@color/red" />
+
+        <TextView
+            android:id="@+id/distributionPrice_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sendOutPrice_tv"
+            android:layout_below="@+id/row_img_02"
+            android:text="免配送费"
+            android:textColor="#202020"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/shopHours_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/distributionPrice_tv"
+            android:layout_alignLeft="@+id/business_name_tv"
+            android:layout_alignTop="@+id/row_img_02"
+            android:text="送货时间:30分钟"
+            android:textColor="#202020"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/logo_iv"
+            android:layout_alignLeft="@+id/shopHours_tv"
+            android:src="@drawable/rate_star_medium_on" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_toRightOf="@+id/imageView1"
+            android:src="@drawable/rate_star_medium_on" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:src="@drawable/rate_star_medium_on" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_toRightOf="@+id/imageView3"
+            android:src="@drawable/rate_star_medium_on" />
+
+    </RelativeLayout>
+          
+       <View
+         android:layout_width="match_parent"
+         android:layout_height="0.2dp"
+         android:background="@color/bg_Gray" />
+
+</LinearLayout>
